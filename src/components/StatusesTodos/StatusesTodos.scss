@@ -1,0 +1,18 @@
+.statuses {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  span {
+    font-size: 22px;
+  }
+
+  &__done {
+    color: green;
+    font-weight: bold;
+  }
+  &__in-process {
+    color: rgb(240, 179, 12);
+    font-weight: bold;
+  }
+}

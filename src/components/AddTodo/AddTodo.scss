@@ -1,0 +1,22 @@
+.add-todo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+  &__text {
+    flex-grow: 1;
+    margin-right: 10px;
+
+    input {
+      width: 100%;
+      padding: 5px 10px;
+
+      color: gray;
+
+      border: none;
+      outline: none;
+
+      border-bottom: 1px solid gray;
+    }
+  }
+}

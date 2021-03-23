@@ -1,0 +1,43 @@
+.todo-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+
+  &__status {
+    align-self: center;
+  }
+
+  &__change-form {
+    display: flex;
+    flex-grow: 1;
+
+    .text {
+      flex-grow: 1;
+      margin: 0 10px;
+
+      input {
+        width: 100%;
+        padding: 0 5px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+      }
+    }
+
+    .text_done input {
+      color: green;
+      text-decoration: line-through;
+      font-style: italic;
+    }
+  }
+}
+
+.btn-remove {
+  margin-left: 10px;
+}
